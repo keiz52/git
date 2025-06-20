@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize two numbers
+    double num1 = 5.5;
+    double num2 = 10.3;
+
+    // Calculate the sum of the two numbers
+    double sum = num1 + num2;
+
+    // Display the result
+    printf("The sum of %.2lf and %.2lf is: %.2lf\n", num1, num2, sum);
+
+    // Return 0 to indicate successful program execution
+    return 0;
+}
